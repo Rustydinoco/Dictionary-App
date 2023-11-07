@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: #f1627a;
+}
+
+.card{
+    width : 90%;
+    max-width: 550px;
+    height: 400px;
+    background: #fff;
+    margin: 80px auto 10px;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+.search{
+    position: relative;
+    width : 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center; 
+}
+
+.search input{
+    position: absolute;
+    left: 30px;
+    height: 35px;
+    width: 70%;
+    outline: 0;
+    border: none;
+    border-bottom: 3px solid #f1627a;
+    padding: 20px 10px ;
+    font-size: 20px;
+}
+
+.search button{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    height: 100%;
+    width: 85px;
+    background: #f1627a;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    
+}  
