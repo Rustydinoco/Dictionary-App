@@ -34,8 +34,8 @@ body{
     width: 70%;
     outline: 0;
     border: none;
-    border-bottom: 3px solid #f1627a;
-    padding: 20px 10px ;
+    border-bottom: 3px solid #f15f78;
+    padding : 20px 10px ;
     font-size: 20px;
 }
 
@@ -51,5 +51,15 @@ body{
     font-size: 15px;
     color: #fff;
     cursor: pointer;
-    
 }  
+
+.error{
+    display: flex;
+    justify-content: center;
+    color:#f15f78;
+    margin-top: 20px;
+}
+
+.result{
+    position: relative;
+}
